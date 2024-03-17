@@ -1,4 +1,13 @@
-import { Navbar, Hero, About } from "./home/index.js";
+import {
+  Navbar,
+  Hero,
+  About,
+  Skills,
+  Projects,
+  Services,
+  Contact,
+  Footer,
+} from "./home/index.js";
 
 function App() {
   return (
@@ -6,6 +15,11 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Skills />
+      <Projects />
+      <Services />
+      <Contact />
+      <Footer />
     </div>
   );
 }

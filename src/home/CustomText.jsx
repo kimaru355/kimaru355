@@ -1,7 +1,12 @@
 import { useEffect, useState } from "react";
 
 export default function CustomText() {
-  const mylist = ["Web Developer", "React Developer", "Software Engineer"];
+  const mylist = [
+    "Full Stack Web Developer",
+    "React Developer",
+    "Software Engineer",
+    "MERN Stack",
+  ];
   const [current, setCurrent] = useState({
     currentString: mylist[0],
     currentPosition: 0,
@@ -38,7 +43,7 @@ export default function CustomText() {
           return newCurrent;
         });
       }
-    }, 250);
+    }, 200);
 
     return () => {
       clearInterval(setIntval);
