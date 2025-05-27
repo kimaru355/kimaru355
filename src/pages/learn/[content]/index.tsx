@@ -36,7 +36,7 @@ const LearnContentPage: NextPage<ContentPageProps> = ({
     (a, b) => a.frontMatter.id - b.frontMatter.id,
   );
 
-  const canonicalUrl = `https://kimaru355.tech/learn/${content?.slug}`;
+  const canonicalUrl = `https://kimaru355.vercel.app/learn/${content?.slug}`;
 
   return (
     <>

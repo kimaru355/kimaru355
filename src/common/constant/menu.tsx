@@ -166,7 +166,7 @@ export const SOCIAL_MEDIA: MenuItemProps[] = [
 export const EXTERNAL_LINKS: MenuItemProps[] = [
   {
     title: 'Analytics',
-    href: 'https://analytics.kimaru355.com/share/LK5kiRuosw9pORLa/kimaru355.tech',
+    href: 'https://analytics.kimaru355.com/share/LK5kiRuosw9pORLa/kimaru355.vercel.app',
     icon: <AnalyticsIcon size={iconSize} />,
     isShow: true,
     isExternal: true,

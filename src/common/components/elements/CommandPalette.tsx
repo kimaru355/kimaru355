@@ -131,7 +131,7 @@ const CommandPalette = () => {
     const url =
       'https://www.google.com/search?q=' +
       queryDebounce +
-      '&ref=kimaru355.tech';
+      '&ref=kimaru355.vercel.app';
     window.open(url, '_blank');
   };
 

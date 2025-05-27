@@ -1,7 +1,7 @@
-const canonicalUrl = 'https://kimaru355.tech';
-const metaImage = 'https://cloud.kimaru355.com/public/images/kimaru355-id.png';
+const canonicalUrl = 'https://kimaru355.vercel.app';
+const metaImage = 'https://kimaru355.vercel.app/public/images/kimaru355.png';
 const metaDescription =
-  'Seasoned Software Engineer especially in Frontend side, with a passion for creating pixel-perfect web experiences';
+  'Software Engineer with a specialization in Full Stack Web Development, with a passion for creating pixel-perfect web experiences';
 
 const defaultSEOConfig = {
   defaultTitle: 'Emmanuel Kimaru - Personal Website',
@@ -15,24 +15,24 @@ const defaultSEOConfig = {
     images: [
       {
         url: metaImage,
-        alt: 'kimaru355.tech og-image',
+        alt: 'kimaru355.vercel.app og-image',
         width: 800,
         height: 600,
       },
       {
         url: metaImage,
-        alt: 'kimaru355.tech og-image',
+        alt: 'kimaru355.vercel.app og-image',
         width: 1200,
         height: 630,
       },
       {
         url: metaImage,
-        alt: 'kimaru355.tech og-image',
+        alt: 'kimaru355.vercel.app og-image',
         width: 1600,
         height: 900,
       },
     ],
-    site_name: 'kimaru355.tech',
+    site_name: 'kimaru355.vercel.app',
   },
   twitter: {
     handle: '@handle',

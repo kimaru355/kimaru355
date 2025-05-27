@@ -16,7 +16,7 @@ const ProjectsDetailPage: NextPage<ProjectsDetailPageProps> = ({ project }) => {
   const PAGE_TITLE = project?.title;
   const PAGE_DESCRIPTION = project?.description;
 
-  const canonicalUrl = `https://kimaru355.tech/project/${project?.slug}`;
+  const canonicalUrl = `https://kimaru355.vercel.app/project/${project?.slug}`;
 
   return (
     <>

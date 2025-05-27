@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://kimaru355.tech
+Host: https://kimaru355.vercel.app
 
 # Sitemaps
-Sitemap: https://kimaru355.tech/sitemap.xml
+Sitemap: https://kimaru355.vercel.app/sitemap.xml

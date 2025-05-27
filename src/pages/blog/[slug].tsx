@@ -25,7 +25,7 @@ const BlogDetailPage: NextPage<BlogDetailPageProps> = ({ blog }) => {
   const blogData = blog?.data || {};
 
   const slug = `blog/${blogData?.slug}?id=${blogData?.id}`;
-  const canonicalUrl = `https://kimaru355.tech/${slug}`;
+  const canonicalUrl = `https://kimaru355.vercel.app/${slug}`;
   const description = formatExcerpt(blogData?.excerpt?.rendered);
 
   const incrementViews = async () => {

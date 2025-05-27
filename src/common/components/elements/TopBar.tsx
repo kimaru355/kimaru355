@@ -6,7 +6,7 @@ const TopBar = () => {
       <span>🚀</span>
       <span>Just launched my landing page website. check it out :</span>
       <a
-        href='https://kimaru355.com/?utm_source=kimaru355.tech&utm_medium=referral&ref=kimaru355.tech'
+        href='https://kimaru355.com/?utm_source=kimaru355.vercel.app&utm_medium=referral&ref=kimaru355.vercel.app'
         target='_blank'
         className='ml-0.5 underline'
       >

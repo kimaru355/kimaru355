@@ -17,10 +17,11 @@ const Introduction = () => {
       </div>
 
       <p className='mt-6 leading-[1.8] text-neutral-800 dark:text-neutral-300 md:leading-loose'>
-        Seasoned Software Engineer especially in Frontend side, with a passion
-        for creating pixel-perfect web experiences. I work with JavaScript and
-        specialize in all-things web. I thrive on collaborating with teams to
-        deliver efficient, scalable, and visually appealing web applications.
+        Software Engineer with a specialization in Full Stack Web Development,
+        with a passion for creating pixel-perfect web experiences. I work with
+        JavaScript and specialize in all-things web. I thrive on collaborating
+        with teams to deliver efficient, scalable, and visually appealing web
+        applications.
       </p>
     </section>
   );

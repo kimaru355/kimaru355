@@ -7,7 +7,7 @@ const Copyright = () => {
       <span className='animate-pulse text-red-500'>❤</span>
       <span>by</span>
       <a
-        href='http://github.com/kimaru355/kimaru355.tech'
+        href='http://github.com/kimaru355/kimaru355.vercel.app'
         target='_blank'
         rel='noopener noreferrer'
       >
