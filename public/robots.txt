@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://kimaru355.tech
+
+# Sitemaps
+Sitemap: https://kimaru355.tech/sitemap.xml

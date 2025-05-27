@@ -1,0 +1,57 @@
+import { CareerProps } from '../types/careers';
+
+export const CAREERS: CareerProps[] = [
+  {
+    position: 'Software Engineer',
+    company: 'Leafie Solutions',
+    company_legal_name: 'Leafie Solutions LLC',
+    logo: '/images/careers/leafie-solutions.png',
+    location: 'Nairobi, Kenya 🇰🇪',
+    location_type: 'Remote',
+    type: 'Full-time',
+    start_date: '2023-11',
+    end_date: null,
+    industry: 'technology',
+    link: 'https://leafiesolutions.com',
+    responsibilities: [
+      'Involved in the development of the Adom Haven website',
+      'Collaborated closely with the designer to develop and implement user-friendly interfaces and functional website.',
+      'Implemented responsive design principles to ensure a seamless experience across various devices and platforms.',
+    ],
+  },
+  {
+    position: 'Quality Assurance Intern',
+    company: 'Teach2Give',
+    company_legal_name: 'Teach2Give',
+    logo: '/images/careers/teach2give.jpeg',
+    location: 'Chuka, Kenya 🇰🇪',
+    location_type: 'On-Site',
+    type: 'Full-time',
+    start_date: '2024-05',
+    end_date: '2024-08',
+    industry: 'education',
+    link: 'https://teach2give.com',
+    responsibilities: [
+      "Worked in a team of four to create a Mens' clothing shopping site",
+      'Worked on Yamir-Travels, an online travel agency website',
+    ],
+  },
+  {
+    position: 'Software Engineering Trainee',
+    company: 'ALX Africa',
+    company_legal_name: 'ALX Africa',
+    logo: '/images/careers/alx.jpg',
+    location: 'Nairobi, Kenya 🇰🇪',
+    location_type: 'Remote',
+    type: 'Full-time',
+    start_date: '2023-01',
+    end_date: '2024-07',
+    industry: 'education',
+    link: 'https://alxafrica.com',
+    responsibilities: [
+      'Involved in the full-stack development of Plana, an event management website',
+      'Worked on an AirBnB clone, a property rental website',
+      'Worked with a team to create a linux terminal with C',
+    ],
+  },
+];
